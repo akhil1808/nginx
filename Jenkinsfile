@@ -43,6 +43,7 @@ pipeline {
                     kubeconfigId: 'kubeconfig',
                     configs: 'nginx.yml',
                     enableConfigSubstitution: true
+                    ) 
             }
         }
     }
